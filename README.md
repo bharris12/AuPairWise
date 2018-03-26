@@ -88,6 +88,7 @@ You can view the summary results with the ``` plot_summary_results(summary)``` f
 ###########################################################################################
 ### 5. Intepreting results
 ###########################################################################################
+
 A low noise factor implies that your experiment 'replicates' the coexpression patterns expected well
 enough to be detected by small perturbations.
 However, this should also be compared to the performances given by the random pairs.
@@ -95,6 +96,7 @@ However, this should also be compared to the performances given by the random pa
 ###########################################################################################
 ### 6. Extras
 ###########################################################################################
+
 To run on a different list of gene pairs, modify the stoich.pairs variable.
 This a matrix of gene pairs, the first column has gene A and second column gene B.
 These need to be entrez gene IDs, or must match the gene labels of your expresssion dataset.
